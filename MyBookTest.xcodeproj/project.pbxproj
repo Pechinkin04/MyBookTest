@@ -11,7 +11,27 @@
 		3BD580D42C6CCC6D00B9EC68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD580D32C6CCC6D00B9EC68 /* ContentView.swift */; };
 		3BD580D62C6CCC6F00B9EC68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD580D52C6CCC6F00B9EC68 /* Assets.xcassets */; };
 		3BD580D92C6CCC6F00B9EC68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD580D82C6CCC6F00B9EC68 /* Preview Assets.xcassets */; };
+		3BD580E02C6CCD9700B9EC68 /* BookVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD580DF2C6CCD9700B9EC68 /* BookVM.swift */; };
+		3BD580E22C6CCF7300B9EC68 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD580E12C6CCF7300B9EC68 /* Book.swift */; };
+		3BD580E42C6CE11800B9EC68 /* Oblomov - 1-01 - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BD580E32C6CE11800B9EC68 /* Oblomov - 1-01 - Bibe.ru.mp3 */; };
+		3BD580E82C6CE1CA00B9EC68 /* Oblomov - 1-02 - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BD580E52C6CE1C900B9EC68 /* Oblomov - 1-02 - Bibe.ru.mp3 */; };
+		3BD580E92C6CE1CA00B9EC68 /* Oblomov - 1-03 - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BD580E62C6CE1C900B9EC68 /* Oblomov - 1-03 - Bibe.ru.mp3 */; };
+		3BD580EA2C6CE1CA00B9EC68 /* Oblomov - 1-04 - Bibe.ru.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BD580E72C6CE1CA00B9EC68 /* Oblomov - 1-04 - Bibe.ru.mp3 */; };
+		3BD580ED2C6CEFCF00B9EC68 /* AudioListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD580EC2C6CEFCF00B9EC68 /* AudioListView.swift */; };
+		3BD580EF2C6CEFEC00B9EC68 /* ChangeViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD580EE2C6CEFEC00B9EC68 /* ChangeViewButton.swift */; };
+		3BD580F12C6CF04500B9EC68 /* AugioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD580F02C6CF04500B9EC68 /* AugioView.swift */; };
+		3BD580FE2C6CFAFF00B9EC68 /* MyBookTestUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD580FD2C6CFAFF00B9EC68 /* MyBookTestUnit.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BD580FF2C6CFAFF00B9EC68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BD580C62C6CCC6D00B9EC68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BD580CD2C6CCC6D00B9EC68;
+			remoteInfo = MyBookTest;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3BD580CE2C6CCC6D00B9EC68 /* MyBookTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBookTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +39,28 @@
 		3BD580D32C6CCC6D00B9EC68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3BD580D52C6CCC6F00B9EC68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BD580D82C6CCC6F00B9EC68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BD580DF2C6CCD9700B9EC68 /* BookVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookVM.swift; sourceTree = "<group>"; };
+		3BD580E12C6CCF7300B9EC68 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		3BD580E32C6CE11800B9EC68 /* Oblomov - 1-01 - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Oblomov - 1-01 - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		3BD580E52C6CE1C900B9EC68 /* Oblomov - 1-02 - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Oblomov - 1-02 - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		3BD580E62C6CE1C900B9EC68 /* Oblomov - 1-03 - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Oblomov - 1-03 - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		3BD580E72C6CE1CA00B9EC68 /* Oblomov - 1-04 - Bibe.ru.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Oblomov - 1-04 - Bibe.ru.mp3"; sourceTree = "<group>"; };
+		3BD580EC2C6CEFCF00B9EC68 /* AudioListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioListView.swift; sourceTree = "<group>"; };
+		3BD580EE2C6CEFEC00B9EC68 /* ChangeViewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeViewButton.swift; sourceTree = "<group>"; };
+		3BD580F02C6CF04500B9EC68 /* AugioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AugioView.swift; sourceTree = "<group>"; };
+		3BD580FB2C6CFAFE00B9EC68 /* MyBookTestUnit.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBookTestUnit.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD580FD2C6CFAFF00B9EC68 /* MyBookTestUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookTestUnit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3BD580CB2C6CCC6D00B9EC68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD580F82C6CFAFE00B9EC68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				3BD580D02C6CCC6D00B9EC68 /* MyBookTest */,
+				3BD580FC2C6CFAFE00B9EC68 /* MyBookTestUnit */,
 				3BD580CF2C6CCC6D00B9EC68 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				3BD580CE2C6CCC6D00B9EC68 /* MyBookTest.app */,
+				3BD580FB2C6CFAFE00B9EC68 /* MyBookTestUnit.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,6 +93,10 @@
 			children = (
 				3BD580D12C6CCC6D00B9EC68 /* MyBookTestApp.swift */,
 				3BD580D32C6CCC6D00B9EC68 /* ContentView.swift */,
+				3BD580F32C6CF18400B9EC68 /* Views */,
+				3BD580DF2C6CCD9700B9EC68 /* BookVM.swift */,
+				3BD580E12C6CCF7300B9EC68 /* Book.swift */,
+				3BD580EB2C6CEEAD00B9EC68 /* Oblomov */,
 				3BD580D52C6CCC6F00B9EC68 /* Assets.xcassets */,
 				3BD580D72C6CCC6F00B9EC68 /* Preview Content */,
 			);
@@ -65,6 +109,43 @@
 				3BD580D82C6CCC6F00B9EC68 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3BD580EB2C6CEEAD00B9EC68 /* Oblomov */ = {
+			isa = PBXGroup;
+			children = (
+				3BD580E32C6CE11800B9EC68 /* Oblomov - 1-01 - Bibe.ru.mp3 */,
+				3BD580E52C6CE1C900B9EC68 /* Oblomov - 1-02 - Bibe.ru.mp3 */,
+				3BD580E62C6CE1C900B9EC68 /* Oblomov - 1-03 - Bibe.ru.mp3 */,
+				3BD580E72C6CE1CA00B9EC68 /* Oblomov - 1-04 - Bibe.ru.mp3 */,
+			);
+			path = Oblomov;
+			sourceTree = "<group>";
+		};
+		3BD580F22C6CF17200B9EC68 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				3BD580EE2C6CEFEC00B9EC68 /* ChangeViewButton.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		3BD580F32C6CF18400B9EC68 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3BD580F22C6CF17200B9EC68 /* CustomView */,
+				3BD580F02C6CF04500B9EC68 /* AugioView.swift */,
+				3BD580EC2C6CEFCF00B9EC68 /* AudioListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3BD580FC2C6CFAFE00B9EC68 /* MyBookTestUnit */ = {
+			isa = PBXGroup;
+			children = (
+				3BD580FD2C6CFAFF00B9EC68 /* MyBookTestUnit.swift */,
+			);
+			path = MyBookTestUnit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +168,24 @@
 			productReference = 3BD580CE2C6CCC6D00B9EC68 /* MyBookTest.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3BD580FA2C6CFAFE00B9EC68 /* MyBookTestUnit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD581012C6CFAFF00B9EC68 /* Build configuration list for PBXNativeTarget "MyBookTestUnit" */;
+			buildPhases = (
+				3BD580F72C6CFAFE00B9EC68 /* Sources */,
+				3BD580F82C6CFAFE00B9EC68 /* Frameworks */,
+				3BD580F92C6CFAFE00B9EC68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BD581002C6CFAFF00B9EC68 /* PBXTargetDependency */,
+			);
+			name = MyBookTestUnit;
+			productName = MyBookTestUnit;
+			productReference = 3BD580FB2C6CFAFE00B9EC68 /* MyBookTestUnit.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +198,10 @@
 				TargetAttributes = {
 					3BD580CD2C6CCC6D00B9EC68 = {
 						CreatedOnToolsVersion = 15.3;
+					};
+					3BD580FA2C6CFAFE00B9EC68 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 3BD580CD2C6CCC6D00B9EC68;
 					};
 				};
 			};
@@ -116,6 +219,7 @@
 			projectRoot = "";
 			targets = (
 				3BD580CD2C6CCC6D00B9EC68 /* MyBookTest */,
+				3BD580FA2C6CFAFE00B9EC68 /* MyBookTestUnit */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +229,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BD580E92C6CE1CA00B9EC68 /* Oblomov - 1-03 - Bibe.ru.mp3 in Resources */,
+				3BD580EA2C6CE1CA00B9EC68 /* Oblomov - 1-04 - Bibe.ru.mp3 in Resources */,
 				3BD580D92C6CCC6F00B9EC68 /* Preview Assets.xcassets in Resources */,
+				3BD580E82C6CE1CA00B9EC68 /* Oblomov - 1-02 - Bibe.ru.mp3 in Resources */,
 				3BD580D62C6CCC6F00B9EC68 /* Assets.xcassets in Resources */,
+				3BD580E42C6CE11800B9EC68 /* Oblomov - 1-01 - Bibe.ru.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD580F92C6CFAFE00B9EC68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +252,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BD580EF2C6CEFEC00B9EC68 /* ChangeViewButton.swift in Sources */,
+				3BD580F12C6CF04500B9EC68 /* AugioView.swift in Sources */,
+				3BD580E22C6CCF7300B9EC68 /* Book.swift in Sources */,
 				3BD580D42C6CCC6D00B9EC68 /* ContentView.swift in Sources */,
+				3BD580ED2C6CEFCF00B9EC68 /* AudioListView.swift in Sources */,
+				3BD580E02C6CCD9700B9EC68 /* BookVM.swift in Sources */,
 				3BD580D22C6CCC6D00B9EC68 /* MyBookTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3BD580F72C6CFAFE00B9EC68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD580FE2C6CFAFF00B9EC68 /* MyBookTestUnit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BD581002C6CFAFF00B9EC68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BD580CD2C6CCC6D00B9EC68 /* MyBookTest */;
+			targetProxy = 3BD580FF2C6CFAFF00B9EC68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		3BD580DA2C6CCC6F00B9EC68 /* Debug */ = {
@@ -197,7 +333,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -279,6 +415,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +444,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +455,42 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3BD581022C6CFAFF00B9EC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = core.MyBookTestUnit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyBookTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyBookTest";
+			};
+			name = Debug;
+		};
+		3BD581032C6CFAFF00B9EC68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = core.MyBookTestUnit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyBookTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyBookTest";
 			};
 			name = Release;
 		};
@@ -337,6 +511,15 @@
 			buildConfigurations = (
 				3BD580DD2C6CCC6F00B9EC68 /* Debug */,
 				3BD580DE2C6CCC6F00B9EC68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD581012C6CFAFF00B9EC68 /* Build configuration list for PBXNativeTarget "MyBookTestUnit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD581022C6CFAFF00B9EC68 /* Debug */,
+				3BD581032C6CFAFF00B9EC68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

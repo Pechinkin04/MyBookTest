@@ -8,17 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var bookVM = BookVM()
+    
+    @State private var showAudio = true
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack(alignment: .bottom) {
+            Color.bgMain.ignoresSafeArea()
+            
+            AudioView()
+                .environmentObject(bookVM)
+                .offset(x: showAudio ? 0 : -UIScreen.main.bounds.width)
+            
+            AudioListView(showAudio: $showAudio)
+                .environmentObject(bookVM)
+                .offset(x: showAudio ? UIScreen.main.bounds.width : 0)
+            
+            ChangeViewButton(showAudio: $showAudio)
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
 }
+
